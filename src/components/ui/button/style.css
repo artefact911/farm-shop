@@ -1,22 +1,26 @@
 .button {
   display: inline-block;
+  max-width: 700px;
+  min-height: 60px;
+  min-width: 260px;
   border: 0;
   color: #fff;
-  padding: 16px 97px;
+  padding: 16px 0;
   background: #fc9b27;
   transition: 0.4s;
   font-weight: bold;
   font-size: 18px;
   line-height: 150%;
   font: inherit;
+  text-align: center;
 }
 .button:hover,
 .button:focus {
-    background: #FC7427;
-    box-shadow: inset 0px 4px 0px rgba(0, 0, 0, 0.14);
-    cursor: pointer;
+  background: #fc7427;
+  box-shadow: inset 0px 4px 0px rgba(0, 0, 0, 0.14);
+  cursor: pointer;
 }
 .button:active {
-    box-shadow: none;
-    background: #FC7427;
+  box-shadow: none;
+  background: #fc7427;
 }

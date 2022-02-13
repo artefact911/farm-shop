@@ -1,0 +1,9 @@
+.feature {
+    display: inline-block;
+    margin-bottom: 6px;
+    padding: 2px 10px;
+    background: #88aa4d;
+    color: #fff;
+    font-size: 14px;
+    line-height: 150%;
+  }
