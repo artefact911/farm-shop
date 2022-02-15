@@ -1,10 +1,10 @@
 import React from "react";
 import PageWrapper from "../layout/page-wrapper/page-wrapper";
-import Advantages from "../../mocks/advantageList";
+import Features from "../../mocks/Features";
 import "./style.css";
 
 export default function App() {
   return (
-    <PageWrapper advantages={Advantages}>Контент страницы</PageWrapper>
+    <PageWrapper features={Features}>Контент страницы</PageWrapper>
   );
 }
