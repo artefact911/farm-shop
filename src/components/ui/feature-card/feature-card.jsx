@@ -9,8 +9,8 @@ function FeatureCard({ name, text, negative, label }) {
       className={`feature-card ${negative ? ` feature-card--negative` : ""}`}
     >
       <div className="feature-card__header">
-        <div class="feature-card__picture"></div>
-        <div class="feature-card__title-block">
+        <div className="feature-card__picture"></div>
+        <div className="feature-card__title-block">
           <LabelFeature label={label} negative={negative} />
           <Title size={TitleSize.EXTRASMALL}>{name}</Title>
         </div>
